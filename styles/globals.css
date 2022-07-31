@@ -68,9 +68,17 @@ footer {
   background: transparent !important;
 }
 
+.primary_btn a:hover,
+.secondary_btn a:hover {
+  color: unset;
+}
 .secondary_btn {
   background: transparent;
   border: none;
   outline: none;
   padding: 7px 25px;
+}
+
+.secondary_btn a {
+  color: #01d293 !important;
 }
