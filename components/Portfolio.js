@@ -16,7 +16,7 @@ const portfolio = [
   {
     id: "3",
     title: "Jungle",
-    description: "E-commerce plant store that supports Stripe payment",
+    description: "E-commerce store that supports Stripe payment",
     img: "../../Docs/jungle.png",
     keyword: ["Ruby", "Rails", "PostgreSQL"],
   },
