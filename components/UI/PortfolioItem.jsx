@@ -3,22 +3,23 @@ import classes from "../../styles/portfolio-item.module.css";
 import Link from "next/link";
 import Image from "next/image";
 function PortfolioItem(props) {
-  const { title, img, liveUrl, keyword } = props.project;
+  const { title, description, img, liveUrl, keyword } = props.project;
   return (
     <div className={`${classes.portfolio_item}`}>
-      <div>
-        <h6>{title}</h6>
-        {keyword.map((item, index) => {
+      <div className="bg-transparent">
+        <h5>{title}</h5>
+        <h6>{description}</h6>
+        {keyword.map((item, index) => (
           <span className={`${classes.portfolio_keyword}`} key={index}>
             {item}
-          </span>;
-        })}
+          </span>
+        ))}
       </div>
-      <div className={`${classes.portfolio_img}`}>
+      <div className={`${classes.portfolio_img} bg-transparent`}>
         <Image alt="portfolio_img" src={img} width="600" height="400" />
       </div>
 
-      <div className={`${classes.portfolio_live}`}>
+      <div className={`${classes.portfolio_live} bg-transparent`}>
         <button className="primary_btn">
           <Link href="#">Launch</Link>
         </button>
