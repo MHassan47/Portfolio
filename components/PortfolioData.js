@@ -42,3 +42,5 @@ const portfolio = [
     keyword: ["React"],
   },
 ];
+
+export default portfolio;
