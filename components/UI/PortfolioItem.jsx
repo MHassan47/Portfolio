@@ -3,7 +3,7 @@ import classes from "../../styles/portfolio-item.module.css";
 import Link from "next/link";
 import Image from "next/image";
 function PortfolioItem(props) {
-  const { title, description, img, liveUrl, keyword } = props.project;
+  const { title, description, img, code, liveUrl, keyword } = props.project;
   return (
     <div className={`${classes.portfolio_item}`}>
       <div className="bg-transparent">
@@ -21,7 +21,9 @@ function PortfolioItem(props) {
 
       <div className={`${classes.portfolio_live} bg-transparent`}>
         <button className="primary_btn">
-          <Link href="#">Launch</Link>
+          <a target="_blank" href={code} rel="noopener noreferrer">
+            <i className="ri-code-s-slash-fill bg-transparent"></i>
+          </a>
         </button>
       </div>
     </div>
