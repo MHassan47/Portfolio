@@ -26,22 +26,26 @@ function Header() {
     <header className={`${classes.header}`}>
       <Container>
         <div className={`${classes.nav_wrapper}`}>
-          <h1>
-            <span>M</span>ohamed
-          </h1>
-        </div>
-        <div className="{`${classes.navigation}`}">
-          <div className="{`${classes.nav_menu}`}">
-            {NAV_LINK.map((item, index) => (
-              <Link href={item.path} key={index}>
-                {item.display}
-              </Link>
-            ))}
+          <div className={`${classes.logo}`}>
+            <h1>
+              <span>M</span>ohamed
+            </h1>
           </div>
-          <div className={`${classes.nav_right}`}>
-            <p className="d-flex align-items-center gap-3 mb-0">
-              <i class="ri-phone-fill"></i> +12045580283
-            </p>
+
+          <div className={`${classes.navigation}`}>
+            <div className={`${classes.nav_menu}`}>
+              {NAV_LINK.map((item, index) => (
+                <Link href={item.path} key={index}>
+                  {item.display}
+                </Link>
+              ))}
+
+              <div className={`${classes.nav_right}`}>
+                <p className="d-flex align-items-center gap-3 mb-0">
+                  <i className="ri-phone-fill"></i> +12045580283
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </Container>
