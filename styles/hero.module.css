@@ -1,0 +1,15 @@
+.hero {
+  padding-top: 60px !important;
+}
+
+.hero_content h5 {
+  /* color: #808dad; */
+  font-weight: 400;
+}
+
+.hero_experience {
+  width: 150px;
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+}
