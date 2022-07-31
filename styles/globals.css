@@ -60,6 +60,7 @@ footer {
   background: #171f38;
   padding: 7px 25px !important;
   border: 1px solid #01d293 !important;
+  border-radius: 5px;
 }
 
 .primary_btn a {
