@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
 import Image from "next/image";
-import classes from "./about.module.css";
+import classes from "../../styles/about.module.css";
 function About() {
   return (
     <>
