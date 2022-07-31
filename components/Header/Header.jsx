@@ -38,6 +38,11 @@ function Header() {
               </Link>
             ))}
           </div>
+          <div className={`${classes.nav_right}`}>
+            <p className="d-flex align-items-center gap-3 mb-0">
+              <i class="ri-phone-fill"></i> +12045580283
+            </p>
+          </div>
         </div>
       </Container>
     </header>
