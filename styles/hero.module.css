@@ -2,14 +2,21 @@
   padding-top: 60px !important;
 }
 
+.hero_content {
+  margin-top: 40px;
+}
+
 .hero_content h5 {
-  /* color: #808dad; */
   font-weight: 400;
 }
 
 .hero_experience {
   width: 150px;
   position: absolute;
-  bottom: -10%;
-  right: -5%;
+
+  /* right: -5%; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #808dad26;
+  z-index: 10;
 }
