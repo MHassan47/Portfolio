@@ -5,7 +5,7 @@ import Image from "next/image";
 import classes from "../../styles/about.module.css";
 function About() {
   return (
-    <>
+    <section id="about">
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -53,7 +53,7 @@ function About() {
           </Col>
         </Row>
       </Container>
-    </>
+    </section>
   );
 }
 
