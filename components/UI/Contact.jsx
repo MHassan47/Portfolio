@@ -37,14 +37,14 @@ function Contact() {
                 rel="noopener noreferrer"
                 href="https://github.com/MHassan47"
               >
-                <i class="ri-github-fill"></i>
+                <i className="ri-github-fill"></i>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/mhassan47/"
               >
-                <i class="ri-linkedin-box-fill"></i>
+                <i className="ri-linkedin-box-fill"></i>
               </a>
             </div>
           </Col>
