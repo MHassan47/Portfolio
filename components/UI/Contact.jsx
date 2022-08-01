@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
 import classes from "../../styles/contact.module.css";
+import Form from "./Form";
 function Contact() {
   return (
     <section id="contact">
@@ -46,6 +47,9 @@ function Contact() {
                 <i class="ri-linkedin-box-fill"></i>
               </a>
             </div>
+          </Col>
+          <Col lg="6" md="6">
+            <Form />
           </Col>
         </Row>
       </Container>
