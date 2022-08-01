@@ -23,25 +23,8 @@ const NAV_LINK = [
   },
 ];
 function Header() {
-  const headerRef = useRef(null);
-
-  const headerFunction = () => {
-    if (
-      document.body.scrollTop > 80 ||
-      document.documentElement.scrollTop > 80
-    ) {
-      headerRef.current.classList.add(`${classes.header__shrink}`);
-    } else {
-      headerRef.current.classList.remove(`${classes.header__shrink}`);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", headerFunction);
-    return () => window.removeEventListener("scroll", headerFunction);
-  }, []);
   return (
-    <header className={`${classes.header}`} ref={headerRef}>
+    <header className={`${classes.header}`}>
       <Container>
         <div className={`${classes.nav_wrapper}`}>
           <div className={`${classes.logo}`}>
