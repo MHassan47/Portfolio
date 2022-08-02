@@ -8,8 +8,8 @@ function Contact() {
     <section id="contact">
       <Container>
         <Row>
+          <h2 className={`${classes.contact_header}`}>Contact</h2>
           <Col lg="6" md="6">
-            <h5>Contact</h5>
             <h3>Contact Me</h3>
             <ul className={`${classes.contact_info_list}`}>
               <li className={`${classes.info_item}`}>
