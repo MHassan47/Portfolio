@@ -8,7 +8,7 @@ import { OrbitControls } from "@react-three/drei";
 function SkillItems({ position, logo }) {
   const colorMap = useLoader(TextureLoader, logo);
   const mesh = useRef(null);
-  useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.01));
+  useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.008));
   return (
     <mesh
       ref={mesh}
