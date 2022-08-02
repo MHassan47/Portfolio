@@ -23,12 +23,13 @@ function Skills() {
   return (
     <div className={`${classes.skills_container}`}>
       <Canvas
+        gl={{ antialias: true }}
         camera={{ position: [0, 2, 10], fov: 70, near: 0.1, far: 1000 }}
         className={`${classes.canvas}`}
       >
         <color attach="background" args={["white"]} />
         <ambientLight intensity={0.5} />
-        <directionalLight position={[0, 10, 0]} intensity={2} />
+        <directionalLight position={[0, 10, 0]} intensity={1} />
         <pointLight position={[-10, 0, -20]} intensity={0.5} />
         <pointLight position={[0, 200, 0]} intensity={0.5} />
         {cubes.map((coord, index) => (
