@@ -1,6 +1,11 @@
 .contact {
   padding-bottom: 60px;
 }
+.contact_header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
 
 .contact_info_list {
   list-style: none;
