@@ -33,7 +33,7 @@ function Skills() {
   const cubes = createCoordinates();
 
   return (
-    <div className={`${classes.skills_container}`}>
+    <div className={`${classes.skills_container}`} id="skills">
       <Canvas
         gl={{ antialias: true }}
         camera={{ position: [0, 2, 10], fov: 70, near: 0.1, far: 1000 }}
