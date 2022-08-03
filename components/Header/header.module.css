@@ -51,28 +51,6 @@
   color: #808dad;
 }
 
-.nav_right p::before {
-  content: "";
-  position: absolute;
-  top: 25%;
-  left: -20px;
-  width: 1px;
-  height: 14px;
-  background-color: #808dad;
-  color: #808dad;
-}
-
-/* .header__shrink {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  width: 80px;
-  line-height: 80px;
-  box-shadow: 5px 5px 15px -5px #01d29344 !important;
-  z-index: 9999;
-} */
-
 .mobile_menu i {
   color: white;
   font-size: 1.3rem;
