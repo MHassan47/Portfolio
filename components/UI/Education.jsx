@@ -26,7 +26,7 @@ function Education() {
                 transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.education_item_header}`}>
-                  <div> Lighthouse Labs - Full Stack Developer </div>
+                  <div> Lighthouse Labs - Full Stack Developer Diploma </div>
                   <div className={`${classes.education_item_header_date}`}>
                     May, 2022 to July, 2022
                   </div>
