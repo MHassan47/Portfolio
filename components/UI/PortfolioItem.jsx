@@ -30,6 +30,14 @@ function PortfolioItem(props) {
             <i className="ri-code-s-slash-fill bg-transparent"></i>
           </a>
         </button>
+
+        {liveUrl && (
+          <button className="primary_btn">
+            <a target="_blank" href={liveUrl} rel="noopener noreferrer">
+              Live App
+            </a>
+          </button>
+        )}
       </div>
     </motion.div>
   );
