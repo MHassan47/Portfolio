@@ -1,0 +1,24 @@
+.scrollToTop button i {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  background-color: #808dad;
+  border-radius: 100%;
+  /* position: fixed;
+  height: 4rem;
+  width: 4rem; */
+  /* bottom: 40px; */
+  /* right: 40px; */
+  z-index: 9999;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollToTop button i:hover {
+  background-color: #808dad72;
+  font-size: 50px;
+}
