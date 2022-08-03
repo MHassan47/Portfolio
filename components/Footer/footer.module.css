@@ -37,3 +37,9 @@
   text-align: center;
   padding-top: 20px;
 }
+
+@media only screen and (max-width: 992px) {
+  .nav_menu {
+    display: none;
+  }
+}
