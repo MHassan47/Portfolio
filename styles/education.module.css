@@ -1,0 +1,54 @@
+.education_header {
+  margin-bottom: 2rem;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.education_container {
+  display: flex;
+  /* justify-content: center; */
+
+  /* flex-direction: column; */
+  /* width: 80vw;
+    height: 50vh; */
+
+  /* border: 2px solid #808dad72; */
+}
+
+/* .education_container > div {
+    display: flex;
+    flex-direction: column;
+  } */
+.education_item {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  background: #171f38;
+  padding: 0px 20px 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.education_item_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  border-bottom: 2px solid #808dad72;
+  background-color: transparent;
+}
+.education_item_header > div {
+  background-color: transparent;
+}
+
+.education_item_content {
+  display: flex;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .education_item {
+    width: 100vw;
+  }
+}
