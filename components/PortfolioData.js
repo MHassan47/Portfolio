@@ -37,7 +37,7 @@ const portfolio = [
     description: "Collaborative, interactive map",
     img: "/images/map_it.PNG",
     code: "https://github.com/MHassan47/Wikimaps",
-    keyword: ["JQuery", "Ajax", "Express.js", "EJS", "PostgreSQL"],
+    keyword: ["JQuery", "Ajax", "Express.js", "PostgreSQL"],
   },
   {
     id: "6",
