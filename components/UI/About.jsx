@@ -8,8 +8,8 @@ function About() {
   return (
     <motion.section
       id="about"
-      initial={{ x: -1000 }}
-      animate={{ x: 0 }}
+      initial={{ x: -1000, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
       transition={{ delay: 1.1, duration: 0.8, type: "tween" }}
     >
       <Container>
@@ -58,7 +58,7 @@ function About() {
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about_icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
-                    Self starter
+                    Self Starter
                   </span>
                 </h6>
               </div>
