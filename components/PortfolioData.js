@@ -5,6 +5,7 @@ const portfolio = [
     description: "Collaborative productivity management app",
     img: "/images/dashboard.PNG",
     code: "https://github.com/MHassan47/Produc_Div",
+    liveUrl: null,
     keyword: ["React", "PostgreSQL", "Express.js", "WebSocket"],
   },
   {
@@ -13,6 +14,7 @@ const portfolio = [
     description: "Real-Time interview scheduler",
     img: "/images/mainpage.png",
     code: "https://github.com/MHassan47/Scheduler",
+    liveUrl: null,
     keyword: ["React", "PostgreSQL", "Express.js"],
   },
   {
@@ -21,6 +23,7 @@ const portfolio = [
     description: "E-commerce store that supports Stripe payment",
     img: "/images/jungle.png",
     code: "https://github.com/MHassan47/Jungle",
+    liveUrl: null,
     keyword: ["Ruby", "Rails", "PostgreSQL"],
   },
   {
@@ -29,6 +32,7 @@ const portfolio = [
     description: "Wordle inspired game",
     img: "/images/passwordle_loser.PNG",
     code: "https://github.com/MHassan47/PassWordle",
+    liveUrl: "https://passwordle.herokuapp.com/",
     keyword: ["React"],
   },
   {
@@ -37,6 +41,7 @@ const portfolio = [
     description: "Collaborative, interactive map",
     img: "/images/map_it.PNG",
     code: "https://github.com/MHassan47/Wikimaps",
+    liveUrl: null,
     keyword: ["JQuery", "Ajax", "Express.js", "PostgreSQL"],
   },
   {
@@ -44,6 +49,7 @@ const portfolio = [
     title: "React-Weather",
     description: "Weather App ",
     img: "/images/san_francisco_weather.PNG",
+    liveUrl: "https://react-weather-app-mh.herokuapp.com/",
     code: "https://github.com/MHassan47/React-Weather-App",
     keyword: ["React"],
   },
