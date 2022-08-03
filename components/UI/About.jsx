@@ -14,14 +14,17 @@ function About() {
     >
       <Container>
         <Row>
-          <Col lg="6" md="6">
+          <Col lg="12" md="12">
             <h2 className="about_me">About Me</h2>
             <p>
-              Exposure to interdisciplinary projects blending computer science
-              and life science prompted a pivot from an academic background in
-              Microbiology and Chemistry. I am a life long learner who is
-              looking to utilize valuable experience in research, development
-              and execution of refined projects into the tech space.
+              After some exposure to interdisciplinary projects blending
+              computer science and life science, I became inspired to pivot from
+              an academic background in Microbiology and Chemistry into the
+              world of tech! I am a life long learner who is looking to utilize
+              valuable experience in research, development and execution of
+              refined projects into the tech space. <br /> Aside from coding, I
+              have several hobbies I am passionate about. I love video games,
+              basketball and finance!
             </p>
             <motion.div
               className=" d-flex align-items-center gap-5"
