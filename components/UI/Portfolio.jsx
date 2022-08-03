@@ -18,7 +18,7 @@ function Portfolio() {
   const item = {
     hidden: {
       opacity: 0,
-      y: 200,
+      y: 50,
     },
     show: {
       opacity: 1,
