@@ -23,6 +23,11 @@ const NAV_LINK = [
   },
 ];
 function Header() {
+  const menuRef = useRef(null);
+
+  const toggleMenu = () => {
+    menuRef.current.classList.toggle(`${classes.menu_active}`);
+  };
   return (
     <header className={`${classes.header}`}>
       <Container>
@@ -33,7 +38,11 @@ function Header() {
             </h1>
           </div>
 
-          <div className={`${classes.navigation}`}>
+          <div
+            className={`${classes.navigation}`}
+            ref={menuRef}
+            onClick={toggleMenu}
+          >
             <div className={`${classes.nav_menu}`}>
               {NAV_LINK.map((item, index) => (
                 <Link href={item.path} key={index}>
@@ -48,6 +57,9 @@ function Header() {
               </div>
             </div>
           </div>
+          <span className={`${classes.mobile_menu}`}>
+            <i className="ri-menu-line" onClick={toggleMenu}></i>
+          </span>
         </div>
       </Container>
     </header>
