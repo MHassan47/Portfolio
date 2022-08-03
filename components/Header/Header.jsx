@@ -18,6 +18,10 @@ const NAV_LINK = [
     display: "Portfolio",
   },
   {
+    path: "#experience",
+    display: "Experience",
+  },
+  {
     path: "#contact",
     display: "Contact",
   },
