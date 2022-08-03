@@ -14,6 +14,10 @@ const NAV_LINK = [
     display: "About",
   },
   {
+    path: "#skills",
+    display: "Skills",
+  },
+  {
     path: "#portfolio",
     display: "Portfolio",
   },
