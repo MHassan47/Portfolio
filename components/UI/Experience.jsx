@@ -24,7 +24,7 @@ function Experience() {
                 className={`${classes.experience_item}`}
                 variants={experienceAnimations}
                 animate={controls}
-                transition={{ delay: 0.6, duration: 0.6, type: "tween" }}
+                transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.experience_item_header}`}>
                   <div> Program Leader </div>
@@ -48,7 +48,7 @@ function Experience() {
                 className={`${classes.experience_item}`}
                 variants={experienceAnimations}
                 animate={controls}
-                transition={{ delay: 1, duration: 0.6, type: "tween" }}
+                transition={{ delay: 0.6, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.experience_item_header}`}>
                   <div> Library Assistant </div>

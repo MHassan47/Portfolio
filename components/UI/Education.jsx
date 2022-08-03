@@ -23,7 +23,7 @@ function Education() {
                 className={`${classes.education_item}`}
                 variants={educationAnimations}
                 animate={controls}
-                transition={{ delay: 0.6, duration: 0.6, type: "tween" }}
+                transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.education_item_header}`}>
                   <div> Lighthouse Labs - Full Stack Developer </div>
@@ -39,7 +39,7 @@ function Education() {
                 className={`${classes.education_item}`}
                 variants={educationAnimations}
                 animate={controls}
-                transition={{ delay: 1, duration: 0.6, type: "tween" }}
+                transition={{ delay: 0.6, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.education_item_header}`}>
                   <div> University of Manitoba - B.Sc. Microbiolgy </div>
