@@ -23,7 +23,8 @@ function Hero() {
               <h5 className="mb-4">Full Stack Developer</h5>
               <p>
                 I have a passion for writing great code and creating seamless
-                user interfaces
+                user interfaces. I enjoy learning new technology to create
+                bigger and better things!
               </p>
               <div>
                 <button className="primary_btn">
