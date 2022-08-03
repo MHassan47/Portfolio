@@ -2,7 +2,19 @@ import React from "react";
 import classes from "../../styles/skills.module.css";
 import SkillsData from "../SkillsData";
 import SkillItems from "./SkillItems";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useLoader, useThree } from "@react-three/fiber";
+import * as THREE from "three";
+import { useTexture } from "@react-three/drei";
+
+// const Background = (props) => {
+//   const { gl } = useThree();
+
+//   const texture = useTexture("/images/newback.jpg");
+//   const formatted = new THREE.WebGLCubeRenderTarget(
+//     texture.image.height
+//   ).fromEquirectangularTexture(gl, texture);
+//   return <primitive attach="background" object={formatted.texture} />;
+// };
 
 function Skills() {
   function createCoordinates() {
