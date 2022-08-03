@@ -44,7 +44,7 @@ function Education() {
                 <h4 className={`${classes.education_item_header}`}>
                   <div> University of Manitoba - B.Sc. Microbiolgy </div>
                   <div className={`${classes.education_item_header_date}`}>
-                    September, 2017 to January 2022
+                    September, 2017 to January, 2022
                   </div>
                 </h4>
                 <p className={`${classes.education_item_content}`}></p>
