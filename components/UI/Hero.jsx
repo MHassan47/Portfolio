@@ -2,7 +2,7 @@ import React from "react";
 import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
-import Link from "next/link";
+import { motion } from "framer-motion";
 import HeroImg from "../../Docs/IMG_4460-removebg-preview.png";
 import classes from "../../styles/hero.module.css";
 
@@ -12,7 +12,12 @@ function Hero() {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className={`${classes.hero_content}`}>
+            <motion.div
+              className={`${classes.hero_content}`}
+              initial={{ x: -1000 }}
+              animate={{ x: 0 }}
+              transition={{ delay: 0.2, duration: 0.5, type: "tween" }}
+            >
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I'm Mohamed Hassan</h2>
               <h5 className="mb-4">Full Stack Developer</h5>
@@ -31,12 +36,17 @@ function Hero() {
                   </a>
                 </button>
               </div>
-            </div>
+            </motion.div>
           </Col>
           <Col lg="6" md="6">
-            <div className={`${classes.hero_img} text-end`}>
+            <motion.div
+              className={`${classes.hero_img} text-end`}
+              // initial={{ x: -400, scale: 0 }}
+              // animate={{ x: 0, scale: 1 }}
+              // transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
+            >
               <Image alt="hero-image" src={HeroImg} width="400" height="400" />
-            </div>
+            </motion.div>
             {/* <div className={`${classes.hero_skills}`}>
               {" "}
               <h6>SKILLS</h6>
