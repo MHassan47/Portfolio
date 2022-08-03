@@ -1,11 +1,28 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
+import { useScroll } from "../useScroll";
+import { motion } from "framer-motion";
 import classes from "../../styles/contact.module.css";
 import Form from "./Form";
 function Contact() {
+  const [element, controls] = useScroll();
+  const contactAnimations = {
+    hidden: { scale: 0 },
+    show: { scale: 1 },
+  };
   return (
-    <section id="contact">
+    <motion.section
+      key="contact"
+      ref={element}
+      id="contact"
+      variants={contactAnimations}
+      animate={controls}
+      transition={{
+        delay: 0.03,
+        type: "tween",
+        duration: 0.6,
+      }}
+    >
       <Container>
         <Row>
           <h2 className={`${classes.contact_header}`}>Contact</h2>
@@ -53,7 +70,7 @@ function Contact() {
           </Col>
         </Row>
       </Container>
-    </section>
+    </motion.section>
   );
 }
 
