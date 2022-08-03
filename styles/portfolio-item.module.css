@@ -36,10 +36,6 @@
 }
 
 .portfolio_live {
-  /* margin-left: -100px; */
-  display: none;
-}
-
-.portfolio_item:hover .portfolio_live {
-  display: block;
+  display: flex;
+  justify-content: space-between;
 }
