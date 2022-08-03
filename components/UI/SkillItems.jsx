@@ -26,11 +26,11 @@ function SkillItems({ position, logo }) {
       />
       <OrbitControls
         makeDefault
-        rotateSpeed={0.08}
+        rotateSpeed={0.05}
         enablePan={false}
         enableZoom={false}
         autoRotate={true}
-        autoRotateSpeed={0.2}
+        autoRotateSpeed={0.1}
       />
     </mesh>
   );
