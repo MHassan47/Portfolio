@@ -1,11 +1,16 @@
 import React from "react";
 import classes from "../../styles/portfolio-item.module.css";
-import Link from "next/link";
+import { motion } from "framer-motion";
 import Image from "next/image";
 function PortfolioItem(props) {
   const { title, description, img, code, liveUrl, keyword } = props.project;
   return (
-    <div className={`${classes.portfolio_item}`}>
+    <motion.div
+      key="portfolioItem"
+      className={`${classes.portfolio_item}`}
+      variants={props.variants}
+      animate={props.controls}
+    >
       <div className="bg-transparent">
         <h5>{title}</h5>
         <h6>{description}</h6>
@@ -26,7 +31,7 @@ function PortfolioItem(props) {
           </a>
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
