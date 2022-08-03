@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-
+import { motion } from "framer-motion";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
@@ -29,7 +29,12 @@ function Header() {
     menuRef.current.classList.toggle(`${classes.menu_active}`);
   };
   return (
-    <header className={`${classes.header}`}>
+    <header
+      className={`${classes.header}`}
+      // initial={{ y: -200, opacity: 0 }}
+      // animate={{ y: 0, opacity: 1 }}
+      // transition={{ delay: 0.2, duration: 0.4, type: "tween" }}
+    >
       <Container>
         <div className={`${classes.nav_wrapper}`}>
           <div className={`${classes.logo}`}>
@@ -51,9 +56,7 @@ function Header() {
               ))}
 
               <div className={`${classes.nav_right}`}>
-                <p className="d-flex align-items-center gap-3 mb-0">
-                  <i className="ri-phone-fill"></i> +12045580283
-                </p>
+                {/* <p className="d-flex align-items-center gap-3 mb-0"></p> */}
               </div>
             </div>
           </div>

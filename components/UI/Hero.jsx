@@ -16,7 +16,7 @@ function Hero() {
               className={`${classes.hero_content}`}
               initial={{ x: -1000 }}
               animate={{ x: 0 }}
-              transition={{ delay: 0.2, duration: 0.5, type: "tween" }}
+              transition={{ delay: 0.8, duration: 0.7, type: "tween" }}
             >
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I'm Mohamed Hassan</h2>
@@ -41,9 +41,9 @@ function Hero() {
           <Col lg="6" md="6">
             <motion.div
               className={`${classes.hero_img} text-end`}
-              // initial={{ x: -400, scale: 0 }}
-              // animate={{ x: 0, scale: 1 }}
-              // transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 1.3, duration: 0.8, type: "tween" }}
             >
               <Image alt="hero-image" src={HeroImg} width="400" height="400" />
             </motion.div>
