@@ -7,8 +7,8 @@ import Form from "./Form";
 function Contact() {
   const [element, controls] = useScroll();
   const contactAnimations = {
-    hidden: { scale: 0 },
-    show: { scale: 1 },
+    hidden: { y: 50, opacity: 0 },
+    show: { y: 0, opacity: 1 },
   };
   return (
     <motion.section
@@ -18,9 +18,9 @@ function Contact() {
       variants={contactAnimations}
       animate={controls}
       transition={{
-        delay: 0.03,
+        delay: 0.3,
         type: "tween",
-        duration: 0.6,
+        duration: 0.8,
       }}
     >
       <Container>
