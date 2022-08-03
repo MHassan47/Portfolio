@@ -39,7 +39,7 @@ function Skills() {
         camera={{ position: [0, 2, 10], fov: 70, near: 0.1, far: 1000 }}
         className={`${classes.canvas}`}
       >
-        <color attach="background" args={["white"]} />
+        <color attach="background" args={["black"]} />
         <ambientLight intensity={0.5} />
         <directionalLight position={[0, 10, 0]} intensity={1} />
         <pointLight position={[-10, 0, -20]} intensity={0.5} />
