@@ -16,7 +16,7 @@ const SkillsData = [
   "/images/python.png",
   "/images/git.png",
   "/images/jest.png",
-  "/images/figma.png",
+  "/images/figma.jpg",
 ];
 
 export default SkillsData;
