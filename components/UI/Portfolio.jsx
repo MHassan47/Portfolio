@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { useScroll } from "../useScroll";
 import PortfolioData from "../PortfolioData";

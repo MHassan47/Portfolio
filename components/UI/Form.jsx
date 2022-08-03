@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import classes from "../../styles/form.module.css";
 import emailjs from "@emailjs/browser";
 function Form() {

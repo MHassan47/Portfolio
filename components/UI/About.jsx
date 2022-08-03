@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import classes from "../../styles/about.module.css";
 function About() {
   return (

@@ -10,12 +10,7 @@ function SkillItems({ position, logo }) {
   const mesh = useRef(null);
   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.008));
   return (
-    <mesh
-      ref={mesh}
-      position={
-        position
-      } /*rotation={[-Math.PI / 2, 0, 0]} position={[0, -3, 0]}*/
-    >
+    <mesh ref={mesh} position={position}>
       <boxBufferGeometry attach="geometry" args={[0.8, 0.8, 0.8]} />
 
       <meshLambertMaterial
