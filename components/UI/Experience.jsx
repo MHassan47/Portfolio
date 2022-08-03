@@ -15,7 +15,7 @@ function Experience() {
     <section id="experience">
       <Container>
         <Row>
-          <h2 className={`${classes.experience_header}`}>EXPERIENCE</h2>
+          <h2 className={`${classes.experience_header}`}>Experience</h2>
           <div className={`${classes.experience_container}`}>
             <Col lg="6" md="6">
               <motion.div
