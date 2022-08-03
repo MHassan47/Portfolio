@@ -14,8 +14,8 @@ function Hero() {
           <Col lg="6" md="6">
             <motion.div
               className={`${classes.hero_content}`}
-              initial={{ x: -1000 }}
-              animate={{ x: 0 }}
+              initial={{ x: -1000, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.8, duration: 0.7, type: "tween" }}
             >
               <SectionSubtitle subtitle="Hello" />
