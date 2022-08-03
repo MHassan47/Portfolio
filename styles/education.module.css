@@ -1,24 +1,12 @@
 .education_header {
   margin-bottom: 2rem;
   display: flex;
-  /* justify-content: center; */
 }
 
 .education_container {
   display: flex;
-  /* justify-content: center; */
-
-  /* flex-direction: column; */
-  /* width: 80vw;
-    height: 50vh; */
-
-  /* border: 2px solid #808dad72; */
 }
 
-/* .education_container > div {
-    display: flex;
-    flex-direction: column;
-  } */
 .education_item {
   display: flex;
   flex-direction: column;
