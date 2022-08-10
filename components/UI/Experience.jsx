@@ -27,6 +27,25 @@ function Experience() {
                 transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.experience_item_header}`}>
+                  <div> Freelance Software Developer </div>
+                  <div className={`${classes.experience_item_header_date}`}>
+                    July, 2016 to Current
+                  </div>
+                </h4>
+                <p className={`${classes.experience_item_content}`}>
+                  - Developing full scale websites for local businesses <br />-
+                  Working on small projects as a Freelancer on Upwork
+                </p>
+              </motion.div>
+              <motion.div
+                key="experience_first"
+                ref={element}
+                className={`${classes.experience_item}`}
+                variants={experienceAnimations}
+                animate={controls}
+                transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
+              >
+                <h4 className={`${classes.experience_item_header}`}>
                   <div> Program Leader </div>
                   <div className={`${classes.experience_item_header_date}`}>
                     June, 2016 to May, 2022
