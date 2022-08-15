@@ -29,7 +29,7 @@ function Experience() {
                 <h4 className={`${classes.experience_item_header}`}>
                   <div> Freelance Software Developer </div>
                   <div className={`${classes.experience_item_header_date}`}>
-                    July, 2016 to Current
+                    July, 2022 to Current
                   </div>
                 </h4>
                 <p className={`${classes.experience_item_content}`}>
