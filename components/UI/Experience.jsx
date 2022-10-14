@@ -27,40 +27,25 @@ function Experience() {
                 transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.experience_item_header}`}>
-                  <div> Freelance Software Developer </div>
+                  <div> Software Developer </div>
                   <div className={`${classes.experience_item_header_date}`}>
-                    July, 2022 to Current
+                    Aug, 2022 to Current
                   </div>
                 </h4>
+                <div className={`${classes.experience_title}`}>
+                  Carnival Guide
+                </div>
                 <p className={`${classes.experience_item_content}`}>
-                  - Developing full scale websites for local businesses <br />-
-                  Working on small projects as a Freelancer on Upwork
+                  - Designing and building Full Stack tourism web and mobile app{" "}
+                  <br />- Created and tested secure user authentication Front
+                  End and Back End using Flask and React via Axios library and
+                  JWT <br />- Created MongoDB database built for horizontal
+                  scalability <br />
+                  <br /> Python · Flask · MongoDB · JavaScript · React.js · HTML
+                  · CSS
                 </p>
               </motion.div>
-              <motion.div
-                key="experience_first"
-                ref={element}
-                className={`${classes.experience_item}`}
-                variants={experienceAnimations}
-                animate={controls}
-                transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
-              >
-                <h4 className={`${classes.experience_item_header}`}>
-                  <div> Program Leader </div>
-                  <div className={`${classes.experience_item_header_date}`}>
-                    June, 2016 to May, 2022
-                  </div>
-                </h4>
-                <p className={`${classes.experience_item_content}`}>
-                  - Program planned for youth with a particular focus on
-                  physical literacy <br />
-                  - Communicated and orchestrated community events in behalf of
-                  municipal government <br />
-                  - Key member of building a city-wide free sports program for
-                  children <br />- Coached basketball and soccer players ages
-                  8-14
-                </p>
-              </motion.div>
+
               <motion.div
                 key="experience_second"
                 ref={element}
@@ -70,15 +55,24 @@ function Experience() {
                 transition={{ delay: 0.6, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.experience_item_header}`}>
-                  <div> Library Assistant </div>
+                  <div> Software Developer </div>
                   <div className={`${classes.experience_item_header_date}`}>
-                    Jan, 2020 to June 2021
+                    Aug, 2022 to Current
                   </div>
                 </h4>
+                <div className={`${classes.experience_title}`}>
+                  The Teacher App
+                </div>
                 <p className={`${classes.experience_item_content}`}>
-                  - Finalized data entry for customer information <br />
-                  - Customer tech support for online services <br />- Scheduled
-                  and promoted literacy community events for families
+                  - Conducted research in order to make architectural and
+                  technical decisions while considering security, scalability,
+                  data privacy, optimization of app <br />
+                  - Built design responsive desktop and mobile version of
+                  website <br />- Debugging support to prepare application for
+                  immediate launch <br />
+                  <br />
+                  JavaScript · React.js · Node.js · Express.js · PostgreSQL ·
+                  prisma · SASS · HTML
                 </p>
               </motion.div>
             </Col>

@@ -36,6 +36,13 @@
   background-color: transparent;
 }
 
+.experience_title {
+  color: #01d293;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 0.4rem;
+  background-color: transparent;
+}
 .experience_item_content {
   display: flex;
   background-color: transparent;
