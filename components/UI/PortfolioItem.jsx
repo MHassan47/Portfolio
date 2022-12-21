@@ -33,6 +33,7 @@ function PortfolioItem(props) {
 
         {liveUrl && (
           <a
+            style={{ textDecoration: "none", color: "#01d293" }}
             className="primary_btn"
             target="_blank"
             href={liveUrl}
