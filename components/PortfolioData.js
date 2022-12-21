@@ -32,7 +32,7 @@ const portfolio = [
     description: "Wordle inspired game",
     img: "/images/passwordle_loser.PNG",
     code: "https://github.com/MHassan47/PassWordle",
-    liveUrl: "https://passwordle.herokuapp.com/",
+    liveUrl: "https://passwordle.netlify.app/",
     keyword: ["React"],
   },
   {
@@ -44,14 +44,24 @@ const portfolio = [
     liveUrl: null,
     keyword: ["JQuery", "Ajax", "Express.js", "PostgreSQL"],
   },
+  // {
+  //   id: "6",
+  //   title: "React-Weather",
+  //   description: "Weather App ",
+  //   img: "/images/san_francisco_weather.PNG",
+  //   liveUrl: "https://react-weather-app-mh.herokuapp.com/",
+  //   code: "https://github.com/MHassan47/React-Weather-App",
+  //   keyword: ["React"],
+  // },
   {
     id: "6",
-    title: "React-Weather",
-    description: "Weather App ",
-    img: "/images/san_francisco_weather.PNG",
-    liveUrl: "https://react-weather-app-mh.herokuapp.com/",
-    code: "https://github.com/MHassan47/React-Weather-App",
-    keyword: ["React"],
+    title: "Budget App",
+    description:
+      "A budgeting app that allows users to securely track their finances at a glance ",
+    img: "/images/budget_dashboard.JPG",
+    liveUrl: null,
+    code: "https://github.com/MHassan47/Budget-App",
+    keyword: ["React", "MongoDB", "Redux", "Nodejs", "MUI"],
   },
 ];
 

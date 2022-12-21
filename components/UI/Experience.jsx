@@ -29,7 +29,7 @@ function Experience() {
                 <h4 className={`${classes.experience_item_header}`}>
                   <div> Software Developer </div>
                   <div className={`${classes.experience_item_header_date}`}>
-                    Aug, 2022 to Current
+                    July, 2022 to Current
                   </div>
                 </h4>
                 <div className={`${classes.experience_title}`}>
@@ -64,15 +64,13 @@ function Experience() {
                   The Teacher App
                 </div>
                 <p className={`${classes.experience_item_content}`}>
-                  - Conducted research in order to make architectural and
-                  technical decisions while considering security, scalability,
-                  data privacy, optimization of app <br />
-                  - Built design responsive desktop and mobile version of
-                  website <br />- Debugging support to prepare application for
-                  immediate launch <br />
+                  - Successfully created share post and profile page features
+                  from the ground up. <br />- Improved over 70% of webApp to be
+                  more design responsive <br />- optimized database and backend
+                  to be more robust at error handling <br />
                   <br />
-                  JavaScript · React.js · Node.js · Express.js · PostgreSQL ·
-                  prisma · SASS · HTML
+                  JavaScript · React.js · AWS · Node.js · Express.js ·
+                  PostgreSQL · prisma · SASS · HTML
                 </p>
               </motion.div>
             </Col>

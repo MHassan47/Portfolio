@@ -32,11 +32,14 @@ function PortfolioItem(props) {
         </button>
 
         {liveUrl && (
-          <button className="primary_btn">
-            <a target="_blank" href={liveUrl} rel="noopener noreferrer">
-              Live App
-            </a>
-          </button>
+          <a
+            className="primary_btn"
+            target="_blank"
+            href={liveUrl}
+            rel="noopener noreferrer"
+          >
+            Live App
+          </a>
         )}
       </div>
     </motion.div>
