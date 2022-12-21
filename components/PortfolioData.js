@@ -56,8 +56,7 @@ const portfolio = [
   {
     id: "6",
     title: "Budget App",
-    description:
-      "A budgeting app that allows users to securely track their finances at a glance ",
+    description: "A budgeting app that lets users track their finances  ",
     img: "/images/budget_dashboard.JPG",
     liveUrl: null,
     code: "https://github.com/MHassan47/Budget-App",

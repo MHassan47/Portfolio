@@ -25,11 +25,15 @@ function PortfolioItem(props) {
       </div>
 
       <div className={`${classes.portfolio_live} bg-transparent`}>
-        <button className="primary_btn">
-          <a target="_blank" href={code} rel="noopener noreferrer">
-            <i className="ri-code-s-slash-fill bg-transparent"></i>
-          </a>
-        </button>
+        <a
+          style={{ textDecoration: "none", color: "#01d293" }}
+          className="primary_btn"
+          target="_blank"
+          href={code}
+          rel="noopener noreferrer"
+        >
+          <i className="ri-code-s-slash-fill bg-transparent"></i>
+        </a>
 
         {liveUrl && (
           <a
