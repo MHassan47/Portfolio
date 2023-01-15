@@ -41,8 +41,8 @@ function Experience() {
                   End and Back End using Flask and React via Axios library and
                   JWT <br />- Created MongoDB database built for horizontal
                   scalability <br />
-                  <br /> Python · Flask · MongoDB · JavaScript · React.js · HTML
-                  · CSS
+                  <br /> Python · Flask · MongoDB · JavaScript · React.js ·
+                  React Native · HTML · TailWindCSS
                 </p>
               </motion.div>
 
@@ -66,11 +66,11 @@ function Experience() {
                 <p className={`${classes.experience_item_content}`}>
                   - Successfully created share post and profile page features
                   from the ground up. <br />- Improved over 70% of webApp to be
-                  more design responsive <br />- optimized database and backend
-                  to be more robust at error handling <br />
+                  more design responsive <br />- Improved error handling to be
+                  more informative on front end and back end <br />
                   <br />
-                  JavaScript · React.js · AWS · Node.js · Express.js ·
-                  PostgreSQL · prisma · SASS · HTML
+                  TypeScript · React.js · React Native · AWS · Node.js ·
+                  Express.js · GraphQL · PostgreSQL · prisma · SASS · HTML
                 </p>
               </motion.div>
             </Col>
