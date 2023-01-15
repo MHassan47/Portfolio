@@ -1,6 +1,24 @@
 const portfolio = [
   {
     id: "1",
+    title: "Workable",
+    description: "A board where users create, save or search for jobs ",
+    img: "/images/workable_home.JPG",
+    liveUrl: null,
+    code: "https://github.com/MHassan47/Workable",
+    keyword: ["React", "TypeScript", "GraphQL", "Node.js", "PostgreSQL"],
+  },
+  {
+    id: "2",
+    title: "Budget App",
+    description: "A budgeting app that lets users track their finances",
+    img: "/images/budget_dashboard.JPG",
+    liveUrl: null,
+    code: "https://github.com/MHassan47/Budget-App",
+    keyword: ["React", "MongoDB", "Redux", "Nodejs", "MUI"],
+  },
+  {
+    id: "3",
     title: "Produc_Div",
     description: "Collaborative productivity management app",
     img: "/images/dashboard.PNG",
@@ -9,7 +27,7 @@ const portfolio = [
     keyword: ["React", "PostgreSQL", "Express.js", "WebSocket"],
   },
   {
-    id: "2",
+    id: "4",
     title: "Scheduler",
     description: "Real-Time interview scheduler",
     img: "/images/mainpage.png",
@@ -18,7 +36,7 @@ const portfolio = [
     keyword: ["React", "PostgreSQL", "Express.js"],
   },
   {
-    id: "3",
+    id: "5",
     title: "Jungle",
     description: "E-commerce store that supports Stripe payment",
     img: "/images/jungle.png",
@@ -27,7 +45,7 @@ const portfolio = [
     keyword: ["Ruby", "Rails", "PostgreSQL"],
   },
   {
-    id: "4",
+    id: "6",
     title: "Passwordle",
     description: "Wordle inspired game",
     img: "/images/passwordle_loser.PNG",
@@ -36,7 +54,7 @@ const portfolio = [
     keyword: ["React"],
   },
   {
-    id: "5",
+    id: "7",
     title: "Map it",
     description: "Collaborative, interactive map",
     img: "/images/map_it.PNG",
@@ -44,23 +62,14 @@ const portfolio = [
     liveUrl: null,
     keyword: ["JQuery", "Ajax", "Express.js", "PostgreSQL"],
   },
-  // {
-  //   id: "6",
-  //   title: "React-Weather",
-  //   description: "Weather App ",
-  //   img: "/images/san_francisco_weather.PNG",
-  //   liveUrl: "https://react-weather-app-mh.herokuapp.com/",
-  //   code: "https://github.com/MHassan47/React-Weather-App",
-  //   keyword: ["React"],
-  // },
   {
-    id: "6",
-    title: "Budget App",
-    description: "A budgeting app that lets users track their finances  ",
-    img: "/images/budget_dashboard.JPG",
+    id: "8",
+    title: "React-Weather",
+    description: "Weather App ",
+    img: "/images/san_francisco_weather.PNG",
     liveUrl: null,
-    code: "https://github.com/MHassan47/Budget-App",
-    keyword: ["React", "MongoDB", "Redux", "Nodejs", "MUI"],
+    code: "https://github.com/MHassan47/React-Weather-App",
+    keyword: ["React", "REST API"],
   },
 ];
 
