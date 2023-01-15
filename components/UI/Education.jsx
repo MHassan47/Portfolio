@@ -31,7 +31,11 @@ function Education() {
                     May, 2022 to July, 2022
                   </div>
                 </h4>
-                <p className={`${classes.education_item_content}`}></p>
+                <p className={`${classes.education_item_content}`}>
+                  Immersive Full Stack Development program that teaches:
+                  Computer Science Fundamentals, JavaScript/Node.js, HTML, CSS,
+                  React, Databases & Data Modelling
+                </p>
               </motion.div>
               <motion.div
                 key="education_second"
@@ -42,12 +46,17 @@ function Education() {
                 transition={{ delay: 0.6, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.education_item_header}`}>
-                  <div> University of Manitoba - B.Sc. Microbiolgy </div>
+                  <div> University of Manitoba - B.Sc. BioInformatics </div>
                   <div className={`${classes.education_item_header_date}`}>
-                    September, 2017 to January, 2022
+                    Sept., 2017 to January, 2022
                   </div>
+                  <div></div>
                 </h4>
-                <p className={`${classes.education_item_content}`}></p>
+                <p className={`${classes.education_item_content}`}>
+                  • Interdisciplinary study of Computer Science and
+                  Microbiological <br />• Utilized databases and algorithms to
+                  manage and understand biological data and statistics
+                </p>
               </motion.div>
             </Col>
           </div>
