@@ -6,7 +6,7 @@ const portfolio = [
     img: "/images/workable_home.JPG",
     liveUrl: null,
     code: "https://github.com/MHassan47/Workable",
-    keyword: ["React", "TypeScript", "GraphQL", "Node.js", "PostgreSQL"],
+    keyword: ["React", "TypeScript", "GraphQL", "Node.js", "Postgres"],
   },
   {
     id: "2",
@@ -42,7 +42,7 @@ const portfolio = [
     img: "/images/jungle.png",
     code: "https://github.com/MHassan47/Jungle",
     liveUrl: null,
-    keyword: ["Ruby", "Rails", "PostgreSQL"],
+    keyword: ["Ruby", "Rails", "Postgres"],
   },
   {
     id: "6",
@@ -60,7 +60,7 @@ const portfolio = [
     img: "/images/map_it.PNG",
     code: "https://github.com/MHassan47/Wikimaps",
     liveUrl: null,
-    keyword: ["JQuery", "Ajax", "Express.js", "PostgreSQL"],
+    keyword: ["JQuery", "Ajax", "Express.js", "Postgres"],
   },
   {
     id: "8",
