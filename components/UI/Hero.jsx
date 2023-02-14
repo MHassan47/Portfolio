@@ -27,15 +27,15 @@ function Hero() {
                 bigger and better things!
               </p>
               <div>
-                <button className="primary_btn">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://resume.creddle.io/resume/5blmgcavltr"
-                  >
-                    Visit Resume
-                  </a>
-                </button>
+                <a
+                  style={{ textDecoration: "none", color: "#01d293" }}
+                  className="primary_btn"
+                  target="_blank"
+                  href="https://resume.creddle.io/resume/5blmgcavltr"
+                  rel="noopener noreferrer"
+                >
+                  Visit Resume
+                </a>
               </div>
             </motion.div>
           </Col>
