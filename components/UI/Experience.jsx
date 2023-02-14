@@ -7,8 +7,8 @@ function Experience() {
   const [element, controls] = useScroll();
 
   const experienceAnimations = {
-    hidden: { x: -300, opacity: 0 },
-    show: { x: 0, opacity: 1 },
+    hidden: { y: 50, opacity: 0 },
+    show: { y: 0, opacity: 1 },
   };
 
   return (
@@ -24,7 +24,7 @@ function Experience() {
                 className={`${classes.experience_item}`}
                 variants={experienceAnimations}
                 animate={controls}
-                transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
+                transition={{ delay: 0.1, duration: 0.6, type: "tween" }}
               >
                 <h4 className={`${classes.experience_item_header}`}>
                   <div> Software Developer </div>
