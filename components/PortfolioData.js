@@ -16,6 +16,22 @@ const portfolio = [
     ],
   },
   {
+    id: "0",
+    title: "Deliverii",
+    description:
+      "A mobile food courier app that allows users to add to cart, edit cart and checkout!",
+    img: "/images/deliverii_mockup.JPG",
+    liveUrl: null,
+    code: "https://github.com/MHassan47/Deliverii",
+    keyword: [
+      "React Native",
+      "TypeScript",
+      "Redux",
+      "Sanity.io",
+      "TailwindCSS",
+    ],
+  },
+  {
     id: "2",
     title: "Clinic",
     description: "A Health app where professionals track activities ",
