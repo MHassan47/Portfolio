@@ -72,9 +72,10 @@ footer {
   background: transparent !important;
 }
 
-.primary_btn a:hover,
-.secondary_btn a:hover {
-  color: unset;
+.primary_btn:hover,
+.secondary_btn:hover {
+  color: white;
+  background-color: black;
 }
 .secondary_btn {
   background: transparent;
