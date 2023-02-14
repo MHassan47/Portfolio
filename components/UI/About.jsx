@@ -6,9 +6,9 @@ function About() {
   return (
     <motion.section
       id="about"
-      initial={{ y: 1000, opacity: 0 }}
+      initial={{ y: 50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ delay: 1.1, duration: 0.8, type: "tween" }}
+      transition={{ delay: 0.7, duration: 0.4, type: "tween" }}
     >
       <Container>
         <Row>
@@ -24,9 +24,9 @@ function About() {
             </p>
             <motion.div
               className=" d-flex align-items-center gap-5"
-              initial={{ x: -1000 }}
-              animate={{ x: 0 }}
-              transition={{ delay: 1.4, duration: 1, type: "tween" }}
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.8, duration: 0.4, type: "tween" }}
             >
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
