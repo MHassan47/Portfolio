@@ -15,7 +15,15 @@ const portfolio = [
     img: "/images/workable_home.JPG",
     liveUrl: null,
     code: "https://github.com/MHassan47/Workable",
-    keyword: ["React", "TypeScript", "GraphQL", "Node.js", "Postgres"],
+    keyword: [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Node.js",
+      "Postgres",
+      "TypeORM",
+      "TailwindCSS",
+    ],
   },
   {
     id: "2",
@@ -24,7 +32,7 @@ const portfolio = [
     img: "/images/budget_dashboard.JPG",
     liveUrl: null,
     code: "https://github.com/MHassan47/Budget-App",
-    keyword: ["React", "MongoDB", "Redux", "Nodejs", "MUI"],
+    keyword: ["React", "MongoDB", "Redux", "Node.js", "MUI"],
   },
   {
     id: "3",
@@ -33,7 +41,7 @@ const portfolio = [
     img: "/images/dashboard.PNG",
     code: "https://github.com/MHassan47/Produc_Div",
     liveUrl: null,
-    keyword: ["React", "PostgreSQL", "Express.js", "WebSocket"],
+    keyword: ["React", "PostgreSQL", "Node.js", "Express.js", "WebSocket"],
   },
   {
     id: "4",
