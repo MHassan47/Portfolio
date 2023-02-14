@@ -14,11 +14,13 @@ function PortfolioItem(props) {
       <div className="bg-transparent">
         <h5>{title}</h5>
         <h6>{description}</h6>
-        {keyword.map((item, index) => (
-          <span className={`${classes.portfolio_keyword}`} key={index}>
-            {item}
-          </span>
-        ))}
+        <div className={`${classes.portfolio_keyword_container}`}>
+          {keyword.map((item, index) => (
+            <span className={`${classes.portfolio_keyword}`} key={index}>
+              {item}
+            </span>
+          ))}
+        </div>
       </div>
       <div className={`${classes.portfolio_img} bg-transparent`}>
         <Image alt="portfolio_img" src={img} width="600" height="400" />
