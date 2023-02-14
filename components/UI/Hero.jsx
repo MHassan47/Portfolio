@@ -14,9 +14,9 @@ function Hero() {
           <Col lg="6" md="6">
             <motion.div
               className={`${classes.hero_content}`}
-              initial={{ y: -1000, opacity: 0 }}
+              initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.7, type: "tween" }}
+              transition={{ delay: 0.5, duration: 0.4, type: "tween" }}
             >
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I&apos;m Mohamed Hassan</h2>
@@ -42,9 +42,9 @@ function Hero() {
           <Col lg="6" md="6">
             <motion.div
               className={`${classes.hero_img} text-end`}
-              initial={{ y: -1000, opacity: 0 }}
+              initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.8, duration: 0.7, type: "tween" }}
+              transition={{ delay: 0.5, duration: 0.4, type: "tween" }}
             >
               <Image alt="hero-image" src={HeroImg} width="400" height="400" />
             </motion.div>
