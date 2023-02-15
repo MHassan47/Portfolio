@@ -22,7 +22,7 @@ const portfolio = [
     description:
       "A mobile food courier app that allows users to add to cart, edit cart and checkout!",
     img: "/images/deliverii_mockup.JPG",
-    preview: null,
+    preview: "/images/Deliverii_preview.mp4",
     liveUrl: null,
     code: "https://github.com/MHassan47/Deliverii",
     keyword: [
@@ -38,7 +38,7 @@ const portfolio = [
     title: "Clinic",
     description: "A Health app where professionals track activities ",
     img: "/images/clinic_light.JPG",
-    preview: null,
+    preview: "/images/Clinic_preview.webm",
     liveUrl: null,
     code: "https://github.com/MHassan47/clinic",
     keyword: ["React", "TypeScript", "TailwindCSS"],
