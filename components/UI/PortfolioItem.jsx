@@ -2,8 +2,16 @@ import React from "react";
 import classes from "../../styles/portfolio-item.module.css";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useState } from "react";
+import Modal from "./Modal";
 function PortfolioItem(props) {
-  const { title, description, img, code, liveUrl, keyword } = props.project;
+  const { title, description, img, preview, code, liveUrl, keyword } =
+    props.project;
+  const [isPreview, setIsPreview] = useState(false);
+  console.log(preview);
+  const onClose = () => {
+    setIsPreview(false);
+  };
   return (
     <motion.div
       key="portfolioItem"
@@ -24,6 +32,7 @@ function PortfolioItem(props) {
       </div>
       <div className={`${classes.portfolio_img} bg-transparent`}>
         <Image alt="portfolio_img" src={img} width="600" height="400" />
+        {/* <video alt="portfolio_video" src={preview} autoPlay />; */}
       </div>
 
       <div className={`${classes.portfolio_live} bg-transparent`}>
@@ -48,7 +57,13 @@ function PortfolioItem(props) {
             Live App
           </a>
         )}
+        {preview && (
+          <button className="primary_btn" onClick={() => setIsPreview(true)}>
+            Preview
+          </button>
+        )}
       </div>
+      {isPreview && <Modal videoSrc={preview} onClose={onClose} />}
     </motion.div>
   );
 }
