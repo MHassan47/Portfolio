@@ -48,7 +48,7 @@ const portfolio = [
     title: "Workable",
     description: "A board where users create, save or search for jobs ",
     img: "/images/workable_home.JPG",
-    preview: null,
+    preview: "/images/Workable_preview.webm",
     liveUrl: null,
     code: "https://github.com/MHassan47/Workable",
     keyword: [
