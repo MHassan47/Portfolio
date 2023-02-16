@@ -5,7 +5,7 @@ const portfolio = [
     description:
       "A mobile real estate app where users can browse postings and message owners",
     img: "/images/realty_mockup.JPG",
-    preview: null,
+    preview: "/images/Realty_preview.mp4",
     liveUrl: null,
     code: "https://github.com/MHassan47/realty",
     keyword: [
@@ -17,7 +17,7 @@ const portfolio = [
     ],
   },
   {
-    id: "0",
+    id: "1",
     title: "Deliverii",
     description:
       "A mobile food courier app that allows users to add to cart, edit cart and checkout!",
@@ -79,7 +79,7 @@ const portfolio = [
     preview: null,
     code: "https://github.com/MHassan47/Produc_Div",
     liveUrl: null,
-    keyword: ["React", "PostgreSQL", "Node.js", "Express.js", "WebSocket"],
+    keyword: ["React", "PostgreSQL", "Node.js", "Express.js", "Socket.io"],
   },
   {
     id: "6",
