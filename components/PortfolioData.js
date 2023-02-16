@@ -38,7 +38,7 @@ const portfolio = [
     title: "Clinic",
     description: "A Health app where professionals track activities ",
     img: "/images/clinic_light.JPG",
-    preview: "/images/Clinic_preview.webm",
+    preview: "/images/Clinic_preview.mp4",
     liveUrl: null,
     code: "https://github.com/MHassan47/clinic",
     keyword: ["React", "TypeScript", "TailwindCSS"],
@@ -48,7 +48,7 @@ const portfolio = [
     title: "Workable",
     description: "A board where users create, save or search for jobs ",
     img: "/images/workable_home.JPG",
-    preview: "/images/Workable_preview.webm",
+    preview: "/images/Workable_preview.mp4",
     liveUrl: null,
     code: "https://github.com/MHassan47/Workable",
     keyword: [
